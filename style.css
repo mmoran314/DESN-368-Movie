@@ -1,0 +1,59 @@
+/* CSS Variables */
+:root {
+    /* main UI color */
+    --plyr-color-main: darkgray;
+    /* audio controls background */
+    --plyr-video-controls-background: black;
+    /* audio controls color */
+    --plyr-video-control-color: white;
+}
+
+body {
+    background: gray;
+}
+
+/* Layout */
+main {
+    /* Fixed width center align */
+    max-width: 60em;
+    margin-inline: auto;
+
+    background: lightgray;
+}
+
+main img {
+    /* Fit image to container */
+    max-width: 100%;
+    display: block;
+}
+
+/* Primary Content */
+article {
+    /* flow content horizontally */
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+article section,
+article aside {
+    /* flex'd children same side  */
+    flex: 1;
+}
+
+/* Aside */
+article aside a {
+    display: block;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 40em) {
+    main article {
+        flex-direction: column;
+    }
+}
