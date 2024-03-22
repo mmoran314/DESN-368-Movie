@@ -1,24 +1,30 @@
 /* CSS Variables */
 :root {
+    --color1: #222222;
+    --color2: #930505;
+    --color3: #ed0000;
+    --color4: #494946;
+    --color5: #feffc4;
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: var(--color2);
     /* audio controls background */
-    --plyr-video-controls-background: black;
+    --plyr-video-controls-background: var(--color1);
     /* audio controls color */
-    --plyr-video-control-color: white;
+    --plyr-video-control-color: var(--color3);
+
 }
 
 body {
-    background: gray;
+    background: var(--color1);
 }
 
 /* Layout */
 main {
     /* Fixed width center align */
-    max-width: 60em;
+    max-width: 80%;
     margin-inline: auto;
-
-    background: lightgray;
+    border: solid 0.25em var(--color5);
+    background: var(--color4);
 }
 
 main img {
