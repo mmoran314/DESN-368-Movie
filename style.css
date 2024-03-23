@@ -26,6 +26,15 @@ main {
     margin-inline: auto;
     border: solid 0.25em var(--color5);
     background: var(--color4);
+    color: var(--color3);
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 0.05em;
+    /* display: flex;
+    flex-direction: column; */
+}
+main h1 {
+    letter-spacing: 0.2em;
+    margin: 0.5em;
 }
 
 main img {
@@ -34,14 +43,22 @@ main img {
     display: block;
 }
 
+main section {
+    margin: 0.5em
+}
+
 /* Primary Content */
 article {
     /* flow content horizontally */
     display: flex;
+    flex-direction: column;
     gap: 1em;
     justify-content: center;
 }
 
+article div {
+    width: 100%;
+}
 article section,
 article aside {
     /* flex'd children same side  */
@@ -58,9 +75,44 @@ footer {
     text-align: center;
 }
 
+.titleHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.titleHeader h1 {
+    display: none;
+}
+
+.gloves {
+    overflow: hidden;
+}
+
+#usaGlove {
+    animation: punchLeftRight 2s infinite;
+    animation-delay: 1s; 
+}
+#ussrGlove {
+    animation: punchRightLeft 2s infinite;
+    animation-delay: 1s; 
+}
+
 /* Media Queries */
 @media (max-width: 40em) {
     main article {
         flex-direction: column;
     }
+}
+
+
+@keyframes punchLeftRight {
+    0% { transform: translateX(0); }
+    90% { transform: translateX(-40%); }
+    100% { transform: translateX(0); }
+}
+@keyframes punchRightLeft {
+    0% { transform: translateX(0); }
+    90% { transform: translateX(40%); }
+    100% { transform: translateX(0); }
+    
 }

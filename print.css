@@ -2,12 +2,37 @@
 
     /* hide */
     audio {
-        display: none;
+        display: none !important;
+        visibility: hidden !important;
     }
+    #player{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .noPrint {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    img {
+        display: none !important;
+        visibility: hidden !important;
     
+    }
+    /* show */
+    .show {
+        display: block !important;
+        visibility: visible !important;
+        
+    }
+    .show h1 {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
     /* print links */
     a[href]::after {
-        content: " " attr( href )
+        content: " Link " attr( href )
     }
     
     /* paper sizing */
