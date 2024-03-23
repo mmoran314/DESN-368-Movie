@@ -63,12 +63,26 @@ article section,
 article aside {
     /* flex'd children same side  */
     flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
-/* Aside */
-article aside a {
-    display: block;
+.cast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+
 }
+.cast h2 {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Aside */
+
 
 /* Footer */
 footer {
