@@ -13,4 +13,5 @@
 * [Websites dedicated to movies are an historical archive](https://www.spacejam.com/1996/jam.html). The _Space Jam_ website still works.
 
 ## Citations
-* Your citations go here
+* [Bebas Neue Font](https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Spray+Paint&family=Slackey&display=swap)
+* [Poster Image](https://www.vintagemovieposters.co.uk/shop/rocky-iv-movie-poster/)
