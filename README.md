@@ -19,3 +19,4 @@ https://desn368-mm-movie.netlify.app/
 * [Trailer](https://www.youtube.com/watch?v=mIE5HYkzvV0&pp=ygUQcm9ja3kgaXYgdHJhaWxlcg%3D%3D)
 * [IMDB Page](https://www.imdb.com/title/tt0089927/)
 * [Favicon](https://favicon.io)
+* [Plyr](https://plyr.io)
