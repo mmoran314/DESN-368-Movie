@@ -29,10 +29,13 @@
         text-align: center;
         align-items: center;
     }
+    a {
+        display: block;
+    }
 
     /* print links */
     a[href]::after {
-        content: " Link " attr( href )
+        content: " " attr( href )
     }
     
     /* paper sizing */

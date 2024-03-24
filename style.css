@@ -56,6 +56,10 @@ article {
     justify-content: center;
 }
 
+span img {
+    width: 15%;
+}
+
 article div {
     width: 100%;
 }
@@ -82,7 +86,11 @@ article aside {
 
 
 /* Aside */
-
+a {
+    background-color: var(--color2);
+    padding: 0.25em;
+    border-radius: 0.5em;
+}
 
 /* Footer */
 footer {
