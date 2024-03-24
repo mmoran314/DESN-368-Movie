@@ -18,3 +18,4 @@ https://desn368-mm-movie.netlify.app/
 * [Poster Image](https://www.vintagemovieposters.co.uk/shop/rocky-iv-movie-poster/)
 * [Trailer](https://www.youtube.com/watch?v=mIE5HYkzvV0&pp=ygUQcm9ja3kgaXYgdHJhaWxlcg%3D%3D)
 * [IMDB Page](https://www.imdb.com/title/tt0089927/)
+* [Favicon](https://favicon.io)
